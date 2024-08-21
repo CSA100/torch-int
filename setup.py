@@ -19,7 +19,7 @@ setup(
             ],
             include_dirs=[
                 'torch_int/kernels/include',
-                '/workspace/torch-int/submodules/cutlass/include/cutlass'
+                '/workspace/torch-int/submodules/cutlass/include'
             ],
             extra_link_args=['-lcublas_static', '-lcublasLt_static',
                              '-lculibos', '-lcudart', '-lcudart_static',
